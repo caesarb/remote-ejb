@@ -1,6 +1,8 @@
 package de.bk.testejb;
 
-public interface Greeter {
+import java.io.Serializable;
+
+public interface Greeter extends Serializable {
     
     String greet(String user);
 }
